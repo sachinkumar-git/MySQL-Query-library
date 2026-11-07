@@ -1,0 +1,72 @@
+# ---------------------------------------------
+# Local learning resources (kept on this computer only)
+# ---------------------------------------------
+local-resources/
+local-resources/**
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.epub
+
+# ---------------------------------------------
+# Database backups and dumps
+# ---------------------------------------------
+*.bak
+*.dump
+*.sql.gz
+*.sql.zip
+*.sql.bz2
+*.mwb.bak
+*.mwb.beforefix
+dumps/
+backups/
+
+# ---------------------------------------------
+# Local credentials and configuration
+# ---------------------------------------------
+.env
+.env.*
+*.cnf
+.my.cnf
+*.pem
+*.key
+credentials*
+secrets*
+config.local.*
+
+# ---------------------------------------------
+# Temporary and log files
+# ---------------------------------------------
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+~$*
+
+# ---------------------------------------------
+# Operating system files
+# ---------------------------------------------
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------------------------------------
+# Editor and IDE files
+# ---------------------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
